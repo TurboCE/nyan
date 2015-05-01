@@ -1,4 +1,4 @@
-package testgame.core;
+package nyan.core;
 
 import clojure.lang.RT;
 import clojure.lang.Symbol;
@@ -12,9 +12,9 @@ import org.robovm.apple.uikit.*;
 public class IOSLauncher extends IOSApplication.Delegate {
 	protected IOSApplication createApplication() {
 		IOSApplicationConfiguration config = new IOSApplicationConfiguration();
-		RT.var("clojure.core", "require").invoke(Symbol.intern("testgame.core"));
+		RT.var("clojure.core", "require").invoke(Symbol.intern("nyan.core"));
 		try {
-			Game game = (Game) RT.var("testgame.core", "testgame-game").deref();
+			Game game = (Game) RT.var("nyan.core", "nyan-game").deref();
 			return new IOSApplication(game, config);
 		} catch (Exception e) {
 			e.printStackTrace();

@@ -1,4 +1,4 @@
-(defproject testgame "0.0.1-SNAPSHOT"
+(defproject nyan "0.0.1-SNAPSHOT"
   :description "FIXME: write description"
   
   :dependencies [[com.badlogicgames.gdx/gdx "1.5.5"]
@@ -16,5 +16,5 @@
   
   :source-paths ["src" "src-common"]
   :javac-options ["-target" "1.6" "-source" "1.6" "-Xlint:-options"]
-  :aot [testgame.core.desktop-launcher]
-  :main testgame.core.desktop-launcher)
+  :aot [nyan.core.desktop-launcher]
+  :main nyan.core.desktop-launcher)

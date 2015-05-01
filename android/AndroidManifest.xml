@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-          package="testgame.core"
+          package="nyan.core"
           android:versionCode="1"
           android:versionName="1.0" >
 
@@ -18,7 +18,7 @@
     </activity>
     <activity android:name=".AndroidLauncher">
       <intent-filter>
-        <action android:name='testgame.core.MAIN'/>
+        <action android:name='nyan.core.MAIN'/>
         <category android:name='android.intent.category.DEFAULT'/>
       </intent-filter>
     </activity>

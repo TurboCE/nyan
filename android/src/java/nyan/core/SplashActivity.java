@@ -1,4 +1,4 @@
-package testgame.core;
+package nyan.core;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -14,7 +14,7 @@ import clojure.lang.Symbol;
 import clojure.lang.Var;
 import clojure.lang.RT;
 
-import testgame.core.R;
+import nyan.core.R;
 
 public class SplashActivity extends Activity {
 
@@ -46,7 +46,7 @@ public class SplashActivity extends Activity {
     }
 
     public void proceed() {
-        startActivity(new Intent("testgame.core.MAIN"));
+        startActivity(new Intent("nyan.core.MAIN"));
         finish();
     }
 
@@ -62,7 +62,7 @@ public class SplashActivity extends Activity {
                     INIT.invoke(SplashActivity.this.getApplication());
 
                     try {
-                        Class.forName("testgame.core.AndroidLauncher");
+                        Class.forName("nyan.core.AndroidLauncher");
                     } catch (ClassNotFoundException e) {
                         Log.e(TAG, "Failed loading AndroidLauncher", e);
                     }

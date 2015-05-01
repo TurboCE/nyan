@@ -1,4 +1,4 @@
-(defproject testgame "0.0.1-SNAPSHOT"
+(defproject nyan "0.0.1-SNAPSHOT"
   :description "FIXME: write description"
   
   :dependencies [[com.badlogicgames.gdx/gdx "1.5.5" :use-resources true]

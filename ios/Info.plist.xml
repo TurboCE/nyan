@@ -5,15 +5,15 @@
     <key>CFBundleDevelopmentRegion</key>
     <string>en</string>
     <key>CFBundleDisplayName</key>
-    <string>testgame</string>
+    <string>nyan</string>
     <key>CFBundleExecutable</key>
-    <string>testgame</string>
+    <string>nyan</string>
     <key>CFBundleIdentifier</key>
-    <string>testgame.core</string>
+    <string>nyan.core</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
-    <string>testgame</string>
+    <string>nyan</string>
     <key>CFBundlePackageType</key>
     <string>APPL</string>
     <key>CFBundleShortVersionString</key>

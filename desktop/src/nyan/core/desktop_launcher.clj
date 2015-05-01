@@ -1,10 +1,10 @@
-(ns testgame.core.desktop-launcher
-  (:require [testgame.core :refer :all])
+(ns nyan.core.desktop-launcher
+  (:require [nyan.core :refer :all])
   (:import [com.badlogic.gdx.backends.lwjgl LwjglApplication]
            [org.lwjgl.input Keyboard])
   (:gen-class))
 
 (defn -main
   []
-  (LwjglApplication. testgame-game "testgame" 1920 1080)
+  (LwjglApplication. nyan-game "nyan" 800 600)
   (Keyboard/enableRepeatEvents true))
